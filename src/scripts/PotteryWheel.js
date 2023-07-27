@@ -2,10 +2,10 @@ let keyValue = 1
 
 export const makePottery = (shape, weight, height) => {
     const clayObject = {
-        id: keyValue,
         shape: shape,
         weight: weight,
-        height: height
+        height: height,
+        id: keyValue
     }
     keyValue++
     return clayObject
